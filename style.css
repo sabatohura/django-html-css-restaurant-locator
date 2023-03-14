@@ -30,13 +30,16 @@ body {
     display: flex;
 }
 .h-btn{
-    margin-left: 15px;
     color: var(--dark-green);
 }
 .h-btn:hover
 {
     background-color: var(--emerald-green);
     color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+
+
 }
 .contact-btn{
     margin-left: 15px;
@@ -45,16 +48,21 @@ body {
 }
 .contact-btn:hover
 {
-    background-color: var(--emerald-green);
+    background-color: var(--emerald-green);  
 }
 .btn-round
 {
     border-radius: 5px;
     padding: 5px;
     font-weight: 600;
+    margin-left: 15px;
+
 }
 .header-hr
 {
 border: 1px solid var(--dark-green);  
 margin: 20px 20px 0 20px;
+}
+a{
+    text-decoration: none;
 }
