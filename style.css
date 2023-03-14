@@ -75,6 +75,7 @@ a{
 .page-body
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px 20px;
 
@@ -153,7 +154,7 @@ a{
 }
 .food-footer:hover
 {
-    background-color: var(--dark-green);
+    background-color: var(--emerald-green);
     color: black;
 }
 .ratings
