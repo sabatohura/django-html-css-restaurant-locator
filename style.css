@@ -1,3 +1,10 @@
+/* setting color variables  */
+:root{
+    --lime-green:#32cd32;
+    --emerald-green:#50C878;
+    --dark-green:#006400;
+}
+/* styling starts */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -9,26 +16,40 @@ body {
 }
 .left-bar
 {
-    color: #006400;
-    font-weight: 800;
+    color: var(--dark-green);
+    font-weight:900;
     font-size: x-large;
 }
 
 .left-bar:hover
 {
-    color: #50C878;
+    color: var(--emerald-green);
 }
 .rightbar
 {
     display: flex;
 }
 .h-btn{
-    margin-left: 10px;
-    color: #006400;
+    margin-left: 15px;
+    color: var(--dark-green);
+}
+.h-btn:hover
+{
+    background-color: var(--emerald-green);
+    color: white;
 }
 .contact-btn{
-    margin-left: 20px;
+    margin-left: 15px;
     color: white;
-    background-color: #50C878;
-    padding: auto;
+    background-color:var(--dark-green);
+}
+.contact-btn:hover
+{
+    background-color: var(--emerald-green);
+}
+.btn-round
+{
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
 }
