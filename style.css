@@ -98,8 +98,15 @@ a{
 {
     margin: auto;
     font-weight: bold;
-    padding: 10px;
+    padding: 0 10px ;
     color: var(--dark-green);
+}
+
+.food-ingredients
+{
+    margin: auto;
+    padding: 0 10px ;
+    font-size: 11px;
 }
 
 .card-space
@@ -113,10 +120,12 @@ a{
 .food-card
 {
     background-color:var(--transparent-2-lime-white);
-    width: 200px;
-    height: 250px;
+    width:185px;
+    height: auto;
     margin: 0px 10px 10px 0px;
     border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 .food-image-section
 {
@@ -128,4 +137,30 @@ a{
     width: 150px;
     height: 150px;
 }
+.food-footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: var(--lime-green);
+    color: white;
+    margin: 5px 0px;
+    
+}
+.act-btn
+{   
+    padding: 5px;   
+}
+.food-footer:hover
+{
+    background-color: var(--dark-green);
+    color: black;
+}
+.ratings
+{
+    padding: 5px;
+    font-weight: 900;
+}
+
+
 /* page body style ends  */
