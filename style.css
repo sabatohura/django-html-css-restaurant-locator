@@ -6,8 +6,6 @@
     --transparent-lime-green:#32cd324b;
     --transparent-2-lime-green:#aae9aa75;
     --transparent-2-lime-white:#d5e7dce2;
-
-
 }
 /* styling starts */
 /* header style starts */
@@ -71,14 +69,12 @@ a{
 /* header-styles end  */
 
 /* page body style starts  */
-
 .page-body
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px 20px;
-
 }
 .right-body-side
 {
@@ -93,7 +89,6 @@ a{
     padding: 15px 20px;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
-
 /* side div restaurant popular dishes */
 .restaurant-title
 {
@@ -102,21 +97,18 @@ a{
     padding: 0 10px ;
     color: var(--dark-green);
 }
-
 .food-ingredients
 {
     margin: auto;
     padding: 0 10px ;
     font-size: 11px;
 }
-
 .card-space
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 5px;
-    
 }
 .food-card
 {
@@ -163,5 +155,30 @@ a{
     font-weight: 900;
 }
 
-
+.card-data
+{
+    background-color:var(--transparent-2-lime-white);
+    height: auto;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.left-body-side
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.map-section
+{
+    width: 500px;
+    height: 510px;
+    border-radius: 10px;
+}
+.resto-info
+{
+    width: 260px;
+    height: 510px;
+}
 /* page body style ends  */
