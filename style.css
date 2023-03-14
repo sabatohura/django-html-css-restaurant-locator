@@ -18,3 +18,17 @@ body {
 {
     color: #50C878;
 }
+.rightbar
+{
+    display: flex;
+}
+.h-btn{
+    margin-left: 10px;
+    color: #006400;
+}
+.contact-btn{
+    margin-left: 20px;
+    color: white;
+    background-color: #50C878;
+    padding: auto;
+}
